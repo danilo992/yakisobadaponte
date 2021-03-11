@@ -6,6 +6,7 @@ body {
 
 header {
     border-bottom: 1px solid #f80a0ac4;
+    background-image: radial-gradient(circle, #ee5a5ac4, rgb(252, 232, 232), rgb(194, 149, 149));
 }
 
 header, ul {
@@ -27,14 +28,15 @@ h2 {
 }
 
 .header-ul li {
-    padding: 10px 20px 0 30px;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
     list-style: none;
-    width: 50px;
+    text-transform:uppercase;
 }
 
 .header-ul li:hover {
-    background-color: rgba(168, 62, 62, 0.267);
+    color: #f80a0ac4;
+    border-top: 1px solid #f80a0ac4;
     border-radius: 10px;
-    border-left: 1px solid #f80a0ac4;
 }
 
